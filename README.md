@@ -5,6 +5,12 @@ Brief example of how to use GraphQL Subscriptions with [@neo4j/graphql](https://
 ## Running the app
 
 ```sh
+# Install dependencies
 npm install
+
+# Starting a Redis container
+docker compose up -d
+
+# Starting the server
 node index.js
 ```
